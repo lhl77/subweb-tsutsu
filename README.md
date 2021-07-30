@@ -4,8 +4,11 @@
 ## 基础配置文件
 
 └─public
+
    └─setting
+   
      ├─setting.js---设置主题信息
+     
      └─setting.css---设置主题样式
      
 
