@@ -2,6 +2,7 @@
 该仓库供主题制作者使用
 
 ## 基础配置文件
+
 └─public
    └─setting
      ├─setting.js---设置主题信息
