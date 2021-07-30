@@ -3,9 +3,13 @@
 
 ## 基础配置文件
 └─public
+
    └─setting
+   
      ├─setting.js---设置主题信息
+     
      └─setting.css---设置主题样式
+     
 
 ## 高级配置文件（小白勿碰）
 ├─public
