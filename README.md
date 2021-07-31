@@ -1,17 +1,39 @@
+![web](web.gif "web")
+
+<h1 align="center"><a href="https://sub.tsutsu.cc/" target="_blank">つつの订阅转换</a></h1>
+
+<p align="center">
+<img alt="star" src="https://img.shields.io/github/stars/lhl77/subweb-tsutsu.svg"/>
+<img alt="fork" src="https://img.shields.io/github/forks/lhl77/subweb-tsutsu.svg"/>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lhl77/subweb-tsutsu.svg?label=commits">
+<img alt="issues" src="https://img.shields.io/github/issues/lhl77/subweb-tsutsu.svg"/>
+<a href="https://github.com/lhl77/subweb-tsutsu/blob/master/LICENSE"><img alt="license" src="https://img.shields.io/github/license/lhl77/subweb-tsutsu.svg"/></a>
+</p>
+
 # つつの订阅转换
 
 该仓库供主题制作者使用
 
 ## 教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki) ！！！
 
-## 基础配置文件（必须修改）
+### 爱折腾用户本地搭建教程在 [这里](https://github.com/lhl77/subweb-tsutsu/blob/master/LINUX.md)
 
-/public/setting/setting.js --- 设置主题信息
+## 基础配置文件
 
-/public/setting/setting.css --- 设置主题样式
+> 必须修改
 
-## 高级配置文件（可以不修改，不影响最终效果）
+- public
+    - setting
+        - `setting.js` ：设置主题信息
+        - `setting.css` ：设置主题样式
 
-/public/index.html --- UA识别跳转，高级背景，魔改 等设置
 
-/src/views/Subconverter.vue --- 可设置subweb内容，远程配置后端配置，网页Title+订阅转换上部显示文字等
+## 高级配置文件
+
+> 可以不修改，不影响最终效果
+
+- public
+    - `index.html` ：UA识别，高级背景等设置
+- src
+    - views
+        - `Subconverter.vue` ：可设置subweb内容，远程配置后端配置，网页Title+订阅转换上部显示文字等
