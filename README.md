@@ -13,3 +13,5 @@
 /public/index.html --- UA识别跳转，高级背景，魔改 等设置
 
 /src/views/Subconverter.vue --- 可设置subweb内容，远程配置后端配置，网页Title+订阅转换上部显示文字等
+
+## 教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki) ！！！
