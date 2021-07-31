@@ -37,3 +37,14 @@
 - src
     - views
         - `Subconverter.vue` ：可设置subweb内容，远程配置后端配置，网页Title+订阅转换上部显示文字等
+
+# 💻 演示站点
+
+欢迎将你的网站提交到这里来 [直接编辑（推荐）](https://github.com/lhl77/subweb-tsutsu/edit/main/README.md) 或者提交 PR
+
+| 站点                                  | 状态                                                         |
+| ------------------------------------- | ------------------------------------------------------------ |
+| [Demo](https://demo.sub.tsutsu.cc/)       | ![Demo](https://img.shields.io/website?url=https://demo.sub.tsutsu.cc/) |
+| [tsutsu · 鲸歌](https://sub.tsutsu.cc/) | ![tsutsu · 鲸歌](https://img.shields.io/website?url=https://sub.tsutsu.cc/)  |
+| [tsutsu · 简单的黑](https://b.sub.tsutsu.cc/) | ![tsutsu · 简单的黑](https://img.shields.io/website?url=https://b.sub.tsutsu.cc/)  |
+| [tsutsu · 海洋3D](https://o.sub.tsutsu.cc/) | ![tsutsu · 海洋3D](https://img.shields.io/website?url=https://o.sub.tsutsu.cc/)  |
