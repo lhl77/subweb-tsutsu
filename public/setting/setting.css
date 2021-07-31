@@ -1,7 +1,7 @@
 /* 背景图片设置 在目录中替换相应文件即可： *//**//**//**//**//**//**//**/
     body
     {
-        background-image:url('../background.png');
+        background-image:url('https://api-u.ton7.cn/release/RandomAcgImages');
         background-repeat:no-repeat;
         background-size:cover;
         background-position: center center;

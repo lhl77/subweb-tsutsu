@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            つつの订阅转换
+            Allen Xu の订阅转换
             <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
           </div>
           <el-container>
@@ -256,6 +256,7 @@ export default {
         customBackend: {
           "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
           "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
+          "sub.hax2021.cf (Allen Xu 提供-稳定)": "https://sub.hax2021.cf/sub?",
           "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
           "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
           "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
@@ -323,15 +324,38 @@ export default {
                   "https://cdn.staticaly.com/gh/Nine499/Clash-Rule/master/Rule"
               },
               {
-                label: "AllenXu精简版多国家",
-                value:
-                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/cdn_multicountry.ini"
+                label: "Allen Xu 自用配置 (与github同步)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/webcdn_own.ini"
               },
               {
-                label: "AllenXu小机场专用",
-                value:
-                  "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
+                label: "Allen Xu 全配置 (与github同步)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/cdn_full.ini"
               },
+              {
+                label: "Allen Xu 截拦广告配置 (与github同步)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/ad_block_plus.ini"
+              },
+              {
+                label: "Allen Xu 多国家 精简版(ACL4SSR 修改版)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/cdn_multicountry.ini"
+              },
+              {
+                label: "Allen Xu 自建节点专用(与Github同步)",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/own_setup.ini"
+              },
+              {
+                label: "Allen Xu 小机场专用配置",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/smallairport.ini"
+              },
+              {
+                label: "Allen Xu 大机场专用配置",
+                value: "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/bigairport.ini"
+              },
+              {
+                label: "Allen Xu NaNoport 专用配置",
+                value:
+                  "https://gist.github.com/jklolixxs/32d4e9a1a5d18a92beccf3be434f7966/raw/NaNoport.ini"
+              }
             ]
           },
           {
@@ -475,7 +499,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "つつの订阅转换 ";
+    document.title = "Allen Xu の订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
@@ -485,8 +509,8 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash";
-    this.form.customBackend = "https://api.tsutsu.cc/sub?";
-    this.form.remoteConfig = "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini";
+    this.form.customBackend = "https://sub.hax2021.cf/sub?";
+    this.form.remoteConfig = "https://cdn.jsdelivr.net/gh/hyt-allen-xu/webcdn@master/webcdn_own.ini";
     //this.getBackendVersion();
   },
   methods: {
