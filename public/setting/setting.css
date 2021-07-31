@@ -1,0 +1,100 @@
+/* 必须设置区域： *//**//**//**//**//**//**//**/
+/**/    body
+/**/    {
+/**/        background-image:url('../background.png');
+/**/        background-repeat:no-repeat;
+/**/        background-size:100%;
+/**/    }
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+body::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #b1b1b1;
+    }
+body::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #5f5f5f;
+}
+
+/* 主页面控制按钮 */
+#theme-btn{
+    color:white;
+}
+/* 鼠标悬浮在主页面控制按钮 */
+#theme-btn:hover{
+    color:#e6e6e6;
+}
+
+/* 控制面板设置 */
+/* 窗口 */
+#theme-box{
+    border:white 2px solid;
+    background-color:rgba(0,0,0,.7);
+}
+/* 控制面板标题拖动部分 */
+#theme-title{
+    background-color:rgba(0,0,0,0);
+    color:white;
+}
+/* 鼠标悬浮在控制面板标题拖动部分 */
+#theme-title:hover{
+    background-color:rgba(255,255,255,.1);
+    
+}
+/* 鼠标悬浮在控制面板关闭处 */
+#theme-close:hover{
+    background-color:rgba(255,0,0,.5);
+}
+/* 控制面板内容 */
+#theme-container{
+    color:white;  /* 这是文字颜色 */
+}
+/* theme-container中a标签样式 */
+#theme-containter a{
+    color:rgb(158, 187, 241);
+}
+
+/* 这里是控制面板内容除的滚动条 *//**//**//**//**//**//**//**//**//**/
+     #theme-container::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #b1b1b1;
+    }
+    #theme-container::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #5f5f5f;
+   }
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+/* 其他主题按钮 */
+#click-to-themes{
+    color:rgb(143, 136, 238);
+}
+
+/* 主题展示图片 */
+.theme-pic{
+    border:1px white solid;  /*边框*/
+}
+/* 主题展示图片文字 */
+.theme-text{
+    color:rgba(0, 0, 0, 0);
+}
+/* 主题文字出现 */
+.theme-text:hover{
+    background-color:rgba(0,0,0,.6);
+    color:white;
+}
+/**//**//**//**//**//**//**//**//**/
+/* 求求大佬们不要删除广告唔 *//**//**/
+/**祝各位大佬们身体健康，逢考必过****/
+/**//**//**//**//**//**//**//**//**/
+/* 广告位中a标签样式 */
+.qf a{
+    color:rgb(158, 187, 241);
+}
+/* 关于中a标签 */
+#about a{
+    color:rgb(158, 187, 241);
+}
