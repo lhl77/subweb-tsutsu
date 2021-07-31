@@ -12,7 +12,7 @@
 
 该仓库供主题制作者使用
 
-## 教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki) ！！！
+### 教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki) ！！！
 
 ### 爱折腾用户本地搭建教程在 [这里](https://github.com/lhl77/subweb-tsutsu/blob/master/LINUX.md)
 
