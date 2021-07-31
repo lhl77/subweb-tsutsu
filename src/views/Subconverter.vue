@@ -499,7 +499,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "Allen Xu の订阅转换 ";
+    document.title = "Allen Xu の 订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
