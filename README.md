@@ -12,9 +12,9 @@
 
 该仓库供主题制作者使用
 
-### 教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki) ！！！
+### 本地更改+在线部署教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki)  （方便快捷）
 
-### 爱折腾用户本地搭建教程在 [这里](https://github.com/lhl77/subweb-tsutsu/blob/master/LINUX.md)
+### 本地更改+本地部署教程在 [这里](https://github.com/lhl77/subweb-tsutsu/wiki/%E3%81%A4%E3%81%A4%E3%81%AE%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2%E2%80%94%E2%80%94%E6%9C%AC%E5%9C%B0%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B-for-%E6%8A%98%E8%85%BE%E5%85%9A)  （适合折腾党,需要Linux系统）
 
 ## 基础配置文件
 
@@ -46,5 +46,4 @@
 正在制作中
 
 欢迎将你的网站提交到这里来，发issue即可
-
 
