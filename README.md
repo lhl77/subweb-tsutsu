@@ -1,4 +1,4 @@
-<img src="https://cdn.jsdelivr.net/gh/lhl77/repository@main/blog/20210802143449.png" alt="web" />
+<img src="https://cdn.jsdelivr.net/gh/lhl77/repository@main/blog/20210802143449.png" alt="web"/>
 
 <h1 align="center"><a href="https://sub.tsutsu.cc/" target="_blank">つつの订阅转换</a></h1>
 
