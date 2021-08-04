@@ -42,8 +42,8 @@
 | ------------------------------------- | ------------------------------------------------------------ |
 | [Demo](https://demo.sub.tsutsu.cc/)       | ![Demo](https://img.shields.io/website?url=https://demo.sub.tsutsu.cc/) |
 
-# 🎨 主题商店
-https://theme.sub.tsutsu.cc
+# 🎨 主题商店(free)
+主题商店：https://theme.sub.tsutsu.cc
 
-投稿: https://git.io/JRfw5
+投稿地址: https://git.io/JRfw5
 
