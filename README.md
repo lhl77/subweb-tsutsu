@@ -43,7 +43,7 @@
 | [Demo](https://demo.sub.tsutsu.cc/)       | ![Demo](https://img.shields.io/website?url=https://demo.sub.tsutsu.cc/) |
 
 # 🎨 主题商店
-正在制作中
+https://theme.sub.tsutsu.cc
 
 欢迎将你的网站提交到这里来，发issue即可
 
