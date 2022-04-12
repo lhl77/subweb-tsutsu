@@ -260,7 +260,7 @@ export default {
           "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
           "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
           "api.wcc.best (sub-web作者提供)": "https://api.wcc.best/sub?",
-          "api.hope140.live (hope提供-vercel)": "https://api.hope140.live/sub?",
+          "api.hope140.cc (hope提供-vercel)": "https://api.hope140.cc/sub?",
           "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
