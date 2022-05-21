@@ -255,21 +255,9 @@ export default {
         },
         customBackend: {
           "api.tsutsu.one (つつ提供-负载均衡-支持IPv4/IPv6)": "https://api.tsutsu.one/sub?",
-          "api.v1.mk（肥羊提供)": "https://api.v1.mk/sub?",
-          "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
-          "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
-          "api.wcc.best (sub-web作者提供)": "https://api.wcc.best/sub?",
-          "api.hope140.ml (hope提供-vercel)": "https://api.hope140.ml/sub?",
-          "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
           { value: "https://api.tsutsu.one/sub?" },
-          { value: "https://api.v1.mk/sub?" },
-          { value: "https://subcon.dlj.tf/sub?" },
-          { value: "https://api.dler.io/sub?" },
-          { value: "https://api.wcc.best/sub?" },
-          { value: "https://api.hope140.ml/sub?" },
-          { value: "https://sub.id9.cc/sub?" },
         ],
         remoteConfig: [
           {
@@ -325,10 +313,10 @@ export default {
                 value:
                   "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
               },
-              {
-                label: "Nine499自用规则",
+	      {
+                label: "Yuki隐藏国内IP属地-极简",
                 value:
-                  "https://cdn.staticaly.com/gh/Nine499/Clash-Rule/master/Rule"
+                  "https://raw.iqiq.io/godlikeanyone/Rules/master/subconvert.ini"
               },
               {
                 label: "AllenXu精简版多国家",
