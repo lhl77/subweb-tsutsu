@@ -313,7 +313,7 @@ export default {
                 value:
                   "https://cdn.staticaly.com/gh/hope140/Clash/beta/All.yaml"
               },
-	      {
+              {
                 label: "Yuki隐藏国内IP属地-极简",
                 value:
                   "https://raw.iqiq.io/godlikeanyone/Rules/master/subconvert.ini"
