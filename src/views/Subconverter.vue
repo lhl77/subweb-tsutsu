@@ -254,7 +254,7 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "api.tsutsu.one (つつ提供-负载均衡-支持IPv4/IPv6)": "https://api.tsutsu.one/sub?",
+          "つつの专属后端 (六核负载均衡-支持IPv4/IPv6)": "https://api.tsutsu.one/sub?",
         },
         backendOptions: [
           { value: "https://api.tsutsu.one/sub?" },
@@ -292,7 +292,12 @@ export default {
                 label: "Skicat",
                 value:
                   "https://cdn.jsdelivr.net/gh/lhl77/sub-ini@main/tsutsu-full-skicat.ini"
-              }
+              },
+              {
+                label: "Maoport",
+                value:
+                  "https://raw.githubusercontent.com/lhl77/sub-ini/main/tsutsu-maoport-full.ini"
+              },
             ]
           },
           {
@@ -316,7 +321,7 @@ export default {
               {
                 label: "Yuki隐藏国内IP属地-极简",
                 value:
-                  "https://raw.iqiq.io/godlikeanyone/Rules/master/subconvert.ini"
+                  "https://raw.githubusercontent.com/godlikeanyone/Rules/master/subconvert.ini"
               },
               {
                 label: "AllenXu精简版多国家",
