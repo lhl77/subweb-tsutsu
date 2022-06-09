@@ -220,7 +220,7 @@ const remoteConfigSample = process.env.VUE_APP_SUBCONVERTER_REMOTE_CONFIG
 const gayhubRelease = process.env.VUE_APP_BACKEND_RELEASE
 const defaultBackend = process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND + '/sub?'
 const shortUrlBackend = process.env.VUE_APP_MYURLS_DEFAULT_BACKEND + '/short'
-const configUploadBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + '/config/upload'
+const configUploadBackend = process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + '/sub.php'
 const tgBotLink = process.env.VUE_APP_BOT_LINK
 
 export default {
@@ -332,6 +332,16 @@ export default {
                 label: "AllenXu小机场专用",
                 value:
                   "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
+              },
+	      {
+                label: "酷酷规则",
+                value:
+                  "https://raw.githubusercontent.com/xiaoshenxian233/cool/rule/coolcool.ini"
+              },
+	      {
+                label: "NormalPeople 规则集 (仅P核)",
+                value:
+                  "https://raw.githubusercontent.com/wyk19/subconverter-web/master/rules/rule-set.ini"
               },
             ]
           },
@@ -476,7 +486,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "つつの订阅转换 · 鲸歌 ";
+    document.title = "つつの订阅转换";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
@@ -677,22 +687,21 @@ export default {
           }
         })
         .then(res => {
-          if (res.data.Code === 1 && res.data.url !== "") {
-            this.$message.success(
-              "远程配置上传成功，配置链接已复制到剪贴板，有效期三个月望知悉"
-            );
+          if (res.data.code === 0 && res.data.data !== "") {
+            this.$message.success("远程配置上传成功，配置链接已复制到剪贴板");
+            
 
             // 自动填充至『表单-远程配置』
-            this.form.remoteConfig = res.data.Url;
+            this.form.remoteConfig = res.data.data;
             this.$copyText(this.form.remoteConfig);
 
             this.dialogUploadConfigVisible = false;
           } else {
-            this.$message.error("远程配置上传失败：" + res.data.Message);
+            this.$message.error("远程配置上传失败..");
           }
         })
         .catch(() => {
-          this.$message.error("远程配置上传失败");
+          this.$message.error("远程配置上传失败..");
         })
         .finally(() => {
           this.loading = false;
