@@ -73,7 +73,7 @@
                   v-model="form.customBackend"
                   allow-create
                   filterable
-                  placeholder="请选择~"
+                  placeholder="请选择"
                   style="width: 100%"
                 >
                   <el-option v-for="(v, k) in options.customBackend" :key="k" :label="k" :value="v"></el-option>
@@ -333,12 +333,12 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/hyt-allen-xu/webcdn/master/smallairport.ini"
               },
-	      {
+              {
                 label: "酷酷规则",
                 value:
                   "https://raw.githubusercontent.com/xiaoshenxian233/cool/rule/coolcool.ini"
               },
-	      {
+              {
                 label: "NormalPeople 规则集 (仅P核)",
                 value:
                   "https://raw.githubusercontent.com/wyk19/subconverter-web/master/rules/rule-set.ini"
